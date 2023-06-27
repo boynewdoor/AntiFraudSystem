@@ -3,6 +3,7 @@ FROM postgres:15-alpine
 
 COPY . /app
 WORKDIR /app
+CMD [ "python", "app.py" ]
 
 # Definir variáveis de ambiente para o novo usuário e senha
 ENV POSTGRES_USER diogo
