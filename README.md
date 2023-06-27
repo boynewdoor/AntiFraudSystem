@@ -87,6 +87,10 @@ EXPOSE 5432
 
 - run docker container -> ```docker run -d --name [container-name] [image-name] ```
 
+- start docker container -> ```docker start [container-name]```
+
+- stop docker container -> ```docker stop [container-name]```
+
   
 
 ## Initial process:
